@@ -1,0 +1,43 @@
+/* FlexSlider
+*********************************/
+.matoot-slider {
+    padding: 0;
+}
+
+.matoot-slider .slides > li {
+    display: none;
+	position: relative;
+}
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+.slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .slides {
+    display: block;
+}
+
+* html .slides {
+    height: 1%;
+}
+
+.no-js .slides > li:first-child {
+    display: block;
+}
+
+.matoot-slider{ max-height: 2000px; }
+.loading.matoot-slider { max-height: 200px;}
+.matoot-slider .slides { zoom: 1; }
+
+.flex-direction-nav li a {
+	z-index: 1000;
+}

@@ -1,0 +1,563 @@
+ /**
+ * Body
+ * ----------------------------------------------------------------------------
+ */
+body {
+	background-color: #1a1a1a;
+}
+
+/**
+ * Slider Caption
+ * ----------------------------------------------------------------------------
+ */
+.matoot-slider-caption.matoot-light {
+	color: #fff !important;
+}
+
+.matoot-slider-caption.matoot-dark {
+	color: #000 !important;
+}
+
+.matoot-slider-caption .matoot-dark-bg {
+	color: #fff !important;
+	background-color: rgba(0,0,0,0.3);
+}
+
+ /**
+ * Main Menu
+ * ----------------------------------------------------------------------------
+ */
+.matoot-main-menu a {
+	color: #fff;
+}
+
+.matoot-main-menu a:hover,
+.matoot-main-menu .active > a ,
+.matoot-main-menu .matoot-current > a{
+	color: #829F53;
+}
+
+ /**
+ * Main Body
+ * ----------------------------------------------------------------------------
+ */
+#matoot-theme-body  {
+	background-color: #FCFCFC;
+}
+
+/*-- Borders --*/
+.matoot-tabs-title li ,
+.matoot-pagination li a,
+.matoot-latest-news li,
+.matoot-latest-news li:before,
+.matoot-popular-post li,
+.matoot-second-menu li,
+.matoot-custom-nav  ul  li,
+.matoot-custom-nav .submenu,
+.matoot-tags li a,
+.matoot-horizontal-tab .matoot-tabs-title,
+.matoot-social li a,
+.matoot-search-btn,
+.matoot-archives li ,
+.matoot-categories li ,
+.matoot-contact-info li,
+.matoot-widget.matoot-comments li,
+.matoot-blog-masonry .matoot-post-content,
+.matoot-blog-label .matoot-post-wraper,
+.matoot-blog-label .matoot-post-content,
+.matoot-filter li ,
+.matoot-callout,
+.matoot-pricing-table ul li,
+.matoot-fields .matoot-fields-title,
+.matoot-header-style-2 .matoot-menu,
+.matoot-header-style-3 .matoot-menu,
+.matoot-portfolio-nav,
+.matoot-portfolio-nav li,
+.matoot-menu-responsive .matoot-menu  li,
+.matoot-accordion.matoot-style-2 .matoot-title,
+.matoot-about-author,
+.matoot-comment-content ,
+.matoot-blog-label .matoot-post-format,
+.matoot-related-post .matoot-filter,
+.matoot-image-hover-icon ,
+#matoot-topbar-responsive #matoot-topbar-left ,
+#matoot-topbar-responsive #matoot-topbar-right,
+.matoot-post-quote .matoot-post-content ,
+.matoot-post-link .matoot-post-content,
+.matoot-toggle.matoot-style-2 .matoot-title,
+.matoot-section,
+.matoot-pricing-table,
+.matoot-team-social,
+.matoot-team-item .matoot-team-description,
+.matoot-form-result.active,
+.matoot-team-content,
+.matoot-smallteam-item,
+.matoot-smallteam-item .matoot-smallteam-content,
+.matoot-smallteam-item .matoot-smallteam-social,
+.matoot-icon-box:hover .matoot-icon:after,
+.matoot-bar,
+.matoot-title-line:after,
+.matoot-title-line:before,
+.matoot-title-double-line:after,
+.matoot-title-double-line:before,
+hr,
+code,
+table,
+tr,
+th,
+td,
+.matoot-header-search,
+input[type='text'],
+input[type='input'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+textarea{
+	border-color: #e4e4e4 !important;
+}
+
+/* Alex */
+#matoot-contact-modal input[type='text'] {
+    color: #829F53;
+}
+
+#matoot-contact-modal .matoot-form-input, #matoot-contact-modal 
+.matoot-form-textarea, #matoot-contact-modal 
+.matoot-form {
+    color: #829F53;
+}
+
+#matoot-newsletter-modal input[type='text'] {
+    color: #829F53;
+}
+
+#matoot-newsletter-modal .matoot-form-input, #matoot-newsletter-modal 
+.matoot-form-textarea, #matoot-newsletter-modal 
+.matoot-form {
+    color: #829F53;
+}
+
+
+/* Striped Divider */
+hr.matoot-hr-divider {
+    background-color: #829F53;
+}
+/* Alex */
+
+/*-- Primary Border --*/
+.matoot-btn.matoot-primary,
+.matoot-btn.matoot-secondary:hover,
+.matoot-icon-box.matoot-white-box .matoot-icon  {
+	border-color: #829F53;
+}
+
+.matoot-btn.matoot-primary:hover,
+.matoot-btn.matoot-secondary {
+	border-color: #1c2730 !important;
+}
+
+
+/*-- Primary Background --*/
+.matoot-primary,
+.matoot-btn.matoot-secondary:hover,
+.matoot-tabs-title li.active,
+.matoot-tabs-title li.active:hover,
+.matoot-pagination li a.current,
+.matoot-accordion.matoot-style-1 .matoot-title.active:before,
+.matoot-toggle.matoot-style-1 .matoot-title.active:before,
+.matoot-accordion.matoot-style-2 .matoot-title.active,
+.matoot-toggle.matoot-style-2 .matoot-title.active,
+.matoot-filter li.selected,
+.matoot-filter li.selected:hover,
+.matoot-search-btn:hover,
+.matoot-callout:before ,
+.matoot-style-2 th,
+.matoot-mobile .matoot-style-2 td:first-child ,
+.matoot-pricing-feature .matoot-pricing-header,
+.matoot-icon-box.matoot-white-box .matoot-icon,
+.matoot-team-content:after,
+.matoot-menu > li > a:after,
+.matoot-icon-box:after,
+blockquote:before,
+.matoot-page-title-primary-bg,
+.matoot-menu-btn  ,
+.matoot-close-btn ,
+.matoot-carousel-btn,
+.matoot-slider .flex-direction-nav li a  {
+	background-color: #829F53 !important;
+	color: #fff;
+}
+
+::selection {
+	background-color: #829F53;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: #829F53;
+	color: #fff;
+}
+
+
+/*-- Primary Text --*/
+a,
+.matoot-post-title:hover,
+.matoot-blog-label-filter li.selected i,
+.matoot-blockquote:before,
+.matoot-latest-news .matoot-title:hover,
+.matoot-popular-post .matoot-title:hover,
+.matoot-second-menu li a:hover,
+.matoot-single-post .matoot-post-meta a:hover,
+.matoot-custom-nav  ul  li a:hover,
+.matoot-portfolio-title a:hover,
+.matoot-list li:before ,
+.matoot-archives a:hover,
+.matoot-categories a:hover,
+.matoot-portfolio-nav li a:hover,
+.matoot-filter li:hover,
+.matoot-related-post .matoot-filter li.selected,
+.matoot-related-post .matoot-filter li:hover.selected,
+.matoot-page-title .matoot-post-meta span:before,
+.matoot-fields .matoot-fields-title:before,
+.matoot-team-social li a,
+.matoot-smallteam-item .matoot-smallteam-social li a:hover,
+.matoot-btn.matoot-btn-line:hover,
+#matoot-search-modal .matoot-search-btn,
+.matoot-hover-item a .matoot-hover-title:before {
+	color: #829F53;
+}
+
+.matoot-highlight,
+.matoot-social.matoot-social-large li a:hover,
+#matoot-share-modal .matoot-social li a:hover {
+	color: #829F53 !important;
+}
+
+/*-- Primary Text Hover --*/
+a:hover,
+.matoot-team-social li a:hover{
+/*     Alex */
+	color: #2F8A83;
+/* 	color: #1c2730; */
+}
+
+/*-- Primary Background Hover--*/
+.matoot-secondary,
+#matoot-header,
+.matoot-carousel figcaption,
+.matoot-btn.matoot-primary:hover,
+.matoot-blog .matoot-media,
+.matoot-blog-masonry .matoot-media,
+.matoot-tags li a:hover,
+.matoot-social li a:hover,
+.matoot-tabs-title li:hover,
+.matoot-blog-label .matoot-post-wraper:hover .matoot-post-format:after,
+.matoot-pagination li a:hover {
+	background-color: #1c2730 !important;
+	color: #fff !important;
+}
+
+/*-- Light Background --*/
+.matoot-tabs-title li,
+.matoot-accordion.matoot-style-1 .matoot-title:before,
+.matoot-toggle.matoot-style-1 .matoot-title:before,
+.matoot-accordion.matoot-style-2 .matoot-title,
+.matoot-toggle.matoot-style-2 .matoot-title ,
+.matoot-bar,
+.matoot-comment-content,
+.matoot-post-quote .matoot-post-content,
+.matoot-post-link .matoot-post-content,
+.matoot-price,
+.matoot-fields .matoot-fields-content,
+.matoot-portfolio-nav li a:hover,
+.matoot-related-post .matoot-filter,
+.matoot-menu-responsive .matoot-menu ul.sub-menu,
+.matoot-latest-news li:before,
+.matoot-tags li a,
+.matoot-social li a,
+.matoot-filter li,
+.matoot-form-result.active,
+.matoot-blog-label .matoot-post-wraper ,
+.matoot-smallteam-item,
+th,
+.matoot-pagination li a,
+.matoot-mobile td:first-child,
+tbody tr:hover,
+code ,
+input[type='text'],
+input[type='input'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+textarea {
+	background-color: #fff;
+}
+
+
+/*-- Heading Colors --*/
+.matoot-main-content h1,
+.matoot-main-content h2,
+.matoot-main-content h3,
+.matoot-main-content h4,
+.matoot-main-content h5,
+.matoot-main-content h6,
+.matoot-sidebar h1,
+.matoot-sidebar h2,
+.matoot-sidebar h3,
+.matoot-sidebar h4,
+.matoot-sidebar h5,
+.matoot-sidebar h6,
+.matoot-post-title,
+.matoot-box-title,
+.matoot-portfolio-title a,
+.matoot-blog-label a .matoot-post-title,
+.matoot-accordion.matoot-style-1 .matoot-title.active,
+.matoot-team-content .matoot-team-name,
+.matoot-smallteam-item .matoot-team-name  {
+	color: #000000;
+}
+
+
+/*-- Text Color --*/
+body,
+.matoot-pagination li a,
+.matoot-single-post .matoot-post-meta a,
+.matoot-custom-nav  ul  li a,
+.matoot-latest-news li:before,
+.matoot-search-btn ,
+.matoot-archives a,
+.matoot-tags li a,
+.matoot-categories a,
+.matoot-portfolio-nav li a,
+.matoot-blog-label a .matoot-post-date,
+.matoot-smallteam-item .matoot-team-description,
+.matoot-smallteam-item .matoot-smallteam-social li a,
+#matoot-theme-body .matoot-social li a,
+blockquote.matoot-style-2:before {
+	color:#666666;
+}
+
+/* Feature Section */
+#matoot-feature-section {
+	background-color: #000;
+}
+
+/* Hovers */
+.matoot-team-social {
+	background-color: #f6f6f6;
+}
+
+.matoot-mask  {
+	background-color: #1c2730;
+}
+
+/* Overlay */
+.matoot-white-overlay:before {
+	background-color: #fff;
+}
+
+.matoot-black-overlay:before {
+	background-color: #000;
+}
+
+.matoot-primary-overlay:before {
+	background-color: #829F53;
+}
+
+.matoot-secondary-overlay:before{
+	background-color: #1c2730;
+}
+
+/* Icons Box */
+.matoot-icon-box .matoot-icon,
+.matoot-icon-box-small .matoot-icon {
+	color: #829F53;
+}
+
+.matoot-icon-box:hover .matoot-box-title,
+.matoot-icon-box-small:hover .matoot-box-title{
+	color: #829F53;
+}
+
+
+.matoot-icon-box .matoot-icon {
+	border-color: #e9e9e9;
+}
+
+
+/*-- Footer --*/
+footer {
+	background-color: #111010;
+	color: #fff;
+}
+
+/*-- Text Color --*/
+footer .matoot-latest-news .matoot-title,
+footer .matoot-second-menu li a,
+footer .matoot-popular-post .matoot-title,
+footer .matoot-tags a,
+footer .matoot-latest-news li:before,
+footer .matoot-widget.matoot-social li a,
+footer .matoot-archives a,
+footer .matoot-categories a{
+	color:#fff !important;
+}
+
+/*-- Primary Text Color --*/
+footer .matoot-latest-news .matoot-title:hover,
+footer .matoot-second-menu li a:hover,
+footer .matoot-popular-post .matoot-title:hover,
+footer .matoot-archives a:hover,
+footer .matoot-categories a:hover{
+	color:#829F53  !important;
+}
+
+/*-- Primary Background Hover--*/
+footer .matoot-tags li a:hover,
+footer .matoot-social li a:hover{
+	background-color: #829F53   !important;
+	color: #fff;
+	opacity: 1;
+}
+
+/* Borders */
+footer .matoot-latest-news li,
+footer .matoot-latest-news li:before,
+footer .matoot-popular-post li,
+footer .matoot-second-menu li,
+footer .matoot-custom-nav  ul  li,
+footer .matoot-custom-nav .submenu,
+footer .matoot-tags li a,
+footer .matoot-social li a,
+footer .matoot-search-btn,
+footer .matoot-archives li ,
+footer .matoot-categories li ,
+footer .matoot-contact-info li,
+footer .matoot-widget.matoot-comments li {
+	border-color: rgba(255,255,255,0.04) !important;
+}
+
+/* Light Background */
+footer .matoot-latest-news li:before,
+footer .matoot-tags li a,
+#matoot-theme-body footer .matoot-social li a {
+	background-color: rgba(255,255,255,0.04);
+}
+
+/* Footer Bar & Body */
+.matoot-footer-bar,
+.matoot-wrapper {
+	background-color: #000000;
+}
+
+
+/**
+ * Color Section 01
+ * ----------------------------------------------------------------------------
+ */
+.matoot-color-section-1 {
+	background-color: #1c2730;
+	color: #fff;
+	padding: 60px 0px 30px 0px;
+}
+
+/**
+ * Color Section 02
+ * ----------------------------------------------------------------------------
+ */
+.matoot-color-section-2 {
+	background-color: #F3F3F3;
+}
+
+/**
+ * Color Section 03
+ * ----------------------------------------------------------------------------
+ */
+.matoot-color-section-3 {
+	background-color: #F34522;
+}
+
+/**
+ * Color Section 04
+ * ----------------------------------------------------------------------------
+ */
+.matoot-color-section-4 {
+	background-color: #222222;
+}
+
+/**
+ * Color Section 05
+ * ----------------------------------------------------------------------------
+ */
+.matoot-color-section-5 {
+	background-color: #829F53;
+}
+
+/**
+ * Color Section 06
+ * ----------------------------------------------------------------------------
+ */
+.matoot-color-section-6 {
+/* 	background-color: #9E110B; */
+	background-color: #5F753B;
+}
+
+
+/**
+ * Dark Section
+ * ----------------------------------------------------------------------------
+ */
+.matoot-dark-color h1,
+.matoot-dark-color h2,
+.matoot-dark-color h3,
+.matoot-dark-color h4,
+.matoot-dark-color h5,
+.matoot-dark-color h6 {
+	color: #000;
+}
+
+.matoot-dark-color {
+	color: #666666;
+}
+
+/* Breadcrumb */
+.matoot-dark-color  .breadcrumb li a,
+.matoot-dark-color  .breadcrumb li a:hover {
+	color: #000;
+}
+
+
+/**
+ * Light Section
+ * ----------------------------------------------------------------------------
+ */
+.matoot-light-color,
+.matoot-light-color h1,
+.matoot-light-color h2,
+.matoot-light-color h3,
+.matoot-light-color h4,
+.matoot-light-color h5,
+.matoot-light-color h6 {
+	color: #fff;
+}
+
+.matoot-light-color .matoot-title-line:after,
+.matoot-light-color .matoot-title-line:before,
+.matoot-light-color .matoot-title-double-line:after,
+.matoot-light-color .matoot-title-double-line:before,
+.matoot-light-color hr {
+	border-color: rgba(255,255,255,0.5) !important;
+}
+
+
+/* Breadcrumb */
+.matoot-light-color  .breadcrumb li a,
+.matoot-light-color  .breadcrumb li a:hover  {
+	color: #fff;
+}
