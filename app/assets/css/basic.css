@@ -230,8 +230,8 @@ p .matoot-btn  {
 }
 
 .matoot-btn.matoot-btn-line:hover {
-	border: 1px solid #fff;
-	background-color: #fff;
+	border: 1px outset rgba(255, 255, 255, 0.5);
+	background-color: rgba( 255, 255, 255, 0.8 );
 }
 
 .matoot-btn:active {

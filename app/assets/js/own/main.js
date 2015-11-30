@@ -1095,7 +1095,7 @@ $( function( ) {
         Main.fixedSidebar( );
 
         //Slider
-        Main.slider( );
+        //Main.slider( );
 
         //Map
         Main.map( );
@@ -1145,9 +1145,9 @@ $( function( ) {
             return false;
         } );
 
-        // I should wait 10 seconds before sliding the scenes
+        // I should wait 20 seconds before sliding the scenes
         setTimeout( function ( ) {
             Main.slider( );
-        }, 10000 );
+        }, 20000 );
     } );
 } );
