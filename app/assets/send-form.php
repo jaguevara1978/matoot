@@ -79,7 +79,7 @@ $message = '
         $mail->SMTPAuth = true;
         //Provide username and password
         $mail->Username = "admin@matoot.com";
-        $mail->Password = "admin2015";
+        $mail->Password = "#@dmin#";
         //If SMTP requires TLS encryption then set it
         $mail->SMTPSecure = "tls";
         //Set TCP port to connect to
@@ -101,14 +101,6 @@ $message = '
          } else {
 			echo "sent";
          }
-/*
-		$mailsent = mail($to, $subject, $message, $headers);
-		if ($mailsent) {
-			echo "sent";
-		} else {
-			echo "failed";
-		}
-*/
 	}
 
 ?>
